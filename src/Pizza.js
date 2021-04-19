@@ -44,7 +44,11 @@ export default  function Pizza() {
         setFormValues(initialFormValues)
       })
       .catch(err => console.log(err))
+    
+      postNewPizza(newPizza)
   }
+
+  
     
   return(
     <div className='form container'>
